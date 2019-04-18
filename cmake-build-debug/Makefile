@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gauthier/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/tox/CLionProjects/pendu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gauthier/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tox/CLionProjects/pendu/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/CLionProjects/untitled/cmake-build-debug/CMakeFiles /home/gauthier/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles /home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+Play.o: Play.cpp.o
+
+.PHONY : Play.o
+
+# target to build an object file
+Play.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Play.cpp.o
+.PHONY : Play.cpp.o
+
+Play.i: Play.cpp.i
+
+.PHONY : Play.i
+
+# target to preprocess a source file
+Play.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Play.cpp.i
+.PHONY : Play.cpp.i
+
+Play.s: Play.cpp.s
+
+.PHONY : Play.s
+
+# target to generate assembly for a file
+Play.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Play.cpp.s
+.PHONY : Play.cpp.s
+
+RandWord.o: RandWord.cpp.o
+
+.PHONY : RandWord.o
+
+# target to build an object file
+RandWord.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/RandWord.cpp.o
+.PHONY : RandWord.cpp.o
+
+RandWord.i: RandWord.cpp.i
+
+.PHONY : RandWord.i
+
+# target to preprocess a source file
+RandWord.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/RandWord.cpp.i
+.PHONY : RandWord.cpp.i
+
+RandWord.s: RandWord.cpp.s
+
+.PHONY : RandWord.s
+
+# target to generate assembly for a file
+RandWord.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/RandWord.cpp.s
+.PHONY : RandWord.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
+	@echo "... Play.o"
+	@echo "... Play.i"
+	@echo "... Play.s"
+	@echo "... RandWord.o"
+	@echo "... RandWord.i"
+	@echo "... RandWord.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

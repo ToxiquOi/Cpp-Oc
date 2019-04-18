@@ -6,11 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/gauthier/CLionProjects/untitled/main.cpp
+/home/tox/CLionProjects/pendu/Play.cpp
+Play.h
+/home/tox/CLionProjects/pendu/Play.h
+iomanip
+-
+
+/home/tox/CLionProjects/pendu/Play.h
+iostream
+-
+vector
+-
+
+/home/tox/CLionProjects/pendu/RandWord.h
 iostream
 -
 fstream
 -
 vector
 -
+
+/home/tox/CLionProjects/pendu/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+iomanip
+-
+RandWord.h
+/home/tox/CLionProjects/pendu/RandWord.h
+Play.h
+/home/tox/CLionProjects/pendu/Play.h
 

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gauthier/CLionProjects/untitled/main.cpp" "/home/gauthier/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/tox/CLionProjects/pendu/Play.cpp" "/home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles/untitled.dir/Play.cpp.o"
+  "/home/tox/CLionProjects/pendu/RandWord.cpp" "/home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles/untitled.dir/RandWord.cpp.o"
+  "/home/tox/CLionProjects/pendu/main.cpp" "/home/tox/CLionProjects/pendu/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

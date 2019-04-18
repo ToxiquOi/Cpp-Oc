@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.cpp.o"
+  "CMakeFiles/untitled.dir/RandWord.cpp.o"
+  "CMakeFiles/untitled.dir/Play.cpp.o"
   "untitled.pdb"
   "untitled"
 )
